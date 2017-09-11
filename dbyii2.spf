@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>yii2advanced</string>
+			<key>host</key>
+			<string>192.168.83.137</string>
+			<key>name</key>
+			<string>192.168.83.137</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJX
+			TlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAF
+			gAdUdHlwZVRyb3dzXxAdU2VsZWN0aW9uRGV0YWlsVHlwZU5TSW5k
+			ZXhTZXTSFwsYGVxOU1JhbmdlQ291bnQQAIAG0hscHR5aJGNsYXNz
+			bmFtZVgkY2xhc3Nlc1pOU0luZGV4U2V0oh8gWk5TSW5kZXhTZXRY
+			TlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVk
+			QXJjaGl2ZXLRJidUZGF0YYABAAgAEQAaACMALQAyADcAQABGAE0A
+			VQBgAGcAagBsAG4AcQBzAHUAdwB8AIEAoQCmALMAtQC3ALwAxwDQ
+			ANsA3gDpAPIA9wEEAQcBGQEcASEAAAAAAAACAQAAAAAAAAAoAAAA
+			AAAAAAAAAAAAAAABIw==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {1720, 941}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>Insert </string>
+			<key>view</key>
+			<string>SP_VIEW_STRUCTURE</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>200</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>INSERT INTO `user` (`id`, `username`, `auth_key`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`, `client_id`) VALUES
+(3, 'zz', 'rryYpOdnWypPCK73fuyfLZF2cgz1kOzz', '$2y$13$mlLiuI65nqHhCzruMabxC.JpuhpaazoFc.olFXNyTQ49NGqFDb3MG', NULL, 'a@a.pt', 10, 1504627219, 1504721276,5)</string>
+		<string>INSERT INTO `user` (`id`, `username`, `auth_key`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`, `client_id`) VALUES
+(2, 'zz', 'rryYpOdnWypPCK73fuyfLZF2cgz1kOzz', '$2y$13$mlLiuI65nqHhCzruMabxC.JpuhpaazoFc.olFXNyTQ49NGqFDb3MG', NULL, 'a@a.pt', 10, 1504627219, 1504721276,5)</string>
+		<string>INSERT INTO `user` (`id`, `username`, `auth_key`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
+(2, 'zz', 'rryYpOdnWypPCK73fuyfLZF2cgz1kOzz', '$2y$13$mlLiuI65nqHhCzruMabxC.JpuhpaazoFc.olFXNyTQ49NGqFDb3MG', NULL, 'a@a.pt', 10, 1504627219, 1504721276)</string>
+		<string>INSERT INTO `user` (`id`, `id_client`, `username`, `auth_key`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
+(2, 3, 'zz', 'rryYpOdnWypPCK73fuyfLZF2cgz1kOzz', '$2y$13$mlLiuI65nqHhCzruMabxC.JpuhpaazoFc.olFXNyTQ49NGqFDb3MG', NULL, 'a@a.pt', 10, 1504627219, 1504721276)</string>
+		<string>ALTER TABLE `user` ADD `id_clients` INT NOT NULL AFTER `updated_at`</string>
+		<string>ALter table 'user' Add 'id_client' INT NOT NULL AFTER 'updated_at'</string>
+		<string>ALter table 'user' Add 'id_client' INT NOT NULL</string>
+		<string>--
+-- Table structure for table `clients`
+--
+
+DROP TABLE IF EXISTS `clients`;
+CREATE TABLE IF NOT EXISTS `clients` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `phone_number` int(9) NOT NULL,
+  `address` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `migration`
+--
+
+DROP TABLE IF EXISTS `migration`;
+CREATE TABLE IF NOT EXISTS `migration` (
+  `version` varchar(180) NOT NULL,
+  `apply_time` int(11) DEFAULT NULL,
+  PRIMARY KEY (`version`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `products`
+--
+
+DROP TABLE IF EXISTS `products`;
+CREATE TABLE IF NOT EXISTS `products` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `price` int(11) NOT NULL,
+  `description` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `services`
+--
+
+DROP TABLE IF EXISTS `services`;
+CREATE TABLE IF NOT EXISTS `services` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `description` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+COMMIT;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */</string>
+		<string>/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.19-0ubuntu0.16.04.1</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
